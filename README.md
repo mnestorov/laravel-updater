@@ -10,19 +10,19 @@ This bash script is tailored for the maintenance and updating of Laravel web app
 
 ## Key Features
 
-### Execution Wrapper (exe function):
+### Execution Wrapper (exe function)
 - This function enhances the clarity of the script's output by visually separating each command's output and displaying a descriptive heading for each command being executed.
 - If any command fails during execution (non-zero exit status), the script will terminate and display an error message.
 
-### Fetching Updates:
+### Fetching Updates
 - Detects the currently checked-out branch.
 - Fetches updates from the origin repository.
 - Displays the list of files that will be modified or changed by an upcoming update.
 
-### Prompt for Update Confirmation:
+### Prompt for Update Confirmation
 - Before applying the updates, the user is prompted to hit enter to confirm the update process for the current directory.
 
-### Laravel-Specific Update and Maintenance:
+### Laravel-Specific Update and Maintenance
 - Temporarily brings the Laravel application down (making it inaccessible to users) to ensure safe updating.
 - Resets the repository to the latest commit.
 - Pulls the latest updates from the origin repository.
@@ -31,15 +31,15 @@ This bash script is tailored for the maintenance and updating of Laravel web app
 - Clears several Laravel caches (authentication resets, configuration, views).
 - Adjusts ownership and permissions for necessary directories, a common requirement for Laravel deployments.
 
-### Front-end Asset Compilation:
+### Front-end Asset Compilation
 - Installs any new or updated Node.js packages.
 - Compiles assets for production using Laravel Mix.
 
-### Supervisor Management:
+### Supervisor Management
 - Reloads the Supervisor configuration.
 - (Commented out) Provides commands to restart specific Supervisor workers and to start Supervisor with a custom configuration.
 
-### Finalizing the Update:
+### Finalizing the Update
 - Fixes group ownership and permissions for the Laravel storage and cache directories.
 - Brings the Laravel application back online, making it accessible to users.
 
