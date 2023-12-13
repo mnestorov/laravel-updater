@@ -4,6 +4,12 @@
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
+## Support The Project
+
+Your support is greatly appreciated and will help ensure the project's continued development and improvement. Thank you for being a part of the community!
+
+[![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)](https://buy.stripe.com/7sI6qagF4cQV4xy5kk) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/mnestorov)
+
 ## Overview
 
 This bash script is tailored for the maintenance and updating of Laravel web application projects hosted on a Git repository.
@@ -50,6 +56,25 @@ To execute the script, simply run:
 ```
 bash update.sh
 ```
+
+## Support The Project
+
+If you find this script helpful and would like to support its development and maintenance, please consider the following options:
+
+- **_Star the repository_**: If you're using this script from a GitHub repository, please give the project a star on GitHub. This helps others discover the project and shows your appreciation for the work done.
+
+- **_Share your feedback_**: Your feedback, suggestions, and feature requests are invaluable to the project's growth. Please open issues on the GitHub repository or contact the author directly to provide your input.
+
+- **_Contribute_**: You can contribute to the project by submitting pull requests with bug fixes, improvements, or new features. Make sure to follow the project's coding style and guidelines when making changes.
+
+- **_Spread the word_**: Share the project with your friends, colleagues, and social media networks to help others benefit from the script as well.
+
+- **_Donate_**: Show your appreciation with a small donation. Your support will help me maintain and enhance the script. Every little bit helps, and your donation will make a big difference in my ability to keep this project alive and thriving.
+
+[![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)](https://buy.stripe.com/7sI6qagF4cQV4xy5kk) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/mnestorov)
+
+Your support is greatly appreciated and will help ensure the project's continued development and improvement. Thank you for being a part of the community!
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
